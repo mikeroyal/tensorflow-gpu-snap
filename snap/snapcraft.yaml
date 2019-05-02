@@ -1,0 +1,28 @@
+name: tensorflow-gpu
+version: git
+summary: 
+description: |
+ 
+
+confinement: devmode
+base: core18
+
+parts:
+  tensorflow-gpu:
+    plugin: 
+    source-type: 
+    source: 
+    
+    build-packages:
+      
+    stage-packages:
+      
+
+apps:
+ tensorflow-gpu:
+    command: tensorflow-gpu
+    
+	environment:
+      "LD_LIBRARY_PATH": "$SNAP/usr/lib/
+	  $SNAPCRAFT_ARCH_TRIPLET"
+      "DISABLE_WAYLAND": "1"
