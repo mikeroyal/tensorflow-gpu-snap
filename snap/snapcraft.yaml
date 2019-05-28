@@ -22,7 +22,43 @@ parts:
     build-packages:
       
     stage-packages:
-      
+      - libnvidia-cfg1-390
+      - libnvidia-cfg1-418
+      - libnvidia-common-390
+      - libnvidia-common-418
+      - libnvidia-compute-390
+      - libnvidia-compute-418
+      - libnvidia-decode-390
+      - libnvidia-decode-418
+      - libnvidia-encode-390
+      - libnvidia-encode-418
+      - libnvidia-fbc1-390
+      - libnvidia-fbc1-418
+      - libnvidia-gl-390
+      - libnvidia-gl-418
+      - libnvidia-ifr1-390
+      - libnvidia-ifr1-418
+      - libvdpau1
+      - libxnvctrl0
+      - mesa-vdpau-drivers
+      - nvidia-compute-utils-390
+      - nvidia-compute-utils-418
+      - nvidia-dkms-390
+      - nvidia-dkms-418
+      - nvidia-driver-390
+      - nvidia-driver-410
+      - nvidia-driver-418
+      - nvidia-kernel-common-390
+      - nvidia-kernel-common-418
+      - nvidia-kernel-source-390
+      - nvidia-kernel-source-418
+      - nvidia-prime
+      - nvidia-settings
+      - nvidia-utils-390
+      - nvidia-utils-418
+      - vdpau-driver-all
+      - xserver-xorg-video-nvidia-390
+      - xserver-xorg-video-nvidia-418
 
 apps:
  tensorflow-gpu:
