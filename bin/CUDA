@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # install CUDA Toolkit v10.1
-# instructions from https://developer.nvidia.com/cuda-downloads (linux -> x86_64 -> Ubuntu -> 18.04 -> deb
 CUDA_REPO_PKG="cuda-repo-ubuntu1804-10-1-local-10.1.105-418.39_1.0-1_amd64.deb"
 wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/${CUDA_REPO_PKG}
 sudo dpkg -i ${CUDA_REPO_PKG}
